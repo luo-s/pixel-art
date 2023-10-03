@@ -1,0 +1,117 @@
+@media print {
+  /* Hide every other element */
+  body * {
+    visibility: hidden;
+  }
+  /* Displaying the printing element */
+  .grid,
+  .grid * {
+    visibility: visible;
+  }
+  .grid {
+    position: absolute;
+    left: auto;
+    top: auto;
+    min-width: 1240px;
+  }
+}
+
+body {
+  background: rgb(180, 180, 180);
+}
+
+.container {
+  width: 1190px;
+  height: 780px;
+  margin: auto;
+  padding: 20px;
+  background: rgb(220, 220, 220);
+  border-radius: 5%;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.pixel {
+  background: white;
+}
+
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 200px;
+  margin: auto;
+  padding: 20px;
+}
+.color {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 50%;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.showColor {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(121, 121, 121);
+  padding: 6px 12px;
+}
+.currentColor {
+  background: white;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 50%;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.picker {
+  width: 60px;
+  margin: 5px;
+}
+
+.clear {
+  background: rgb(37, 175, 234);
+  color: white;
+  border: 0;
+  height: 30px;
+  margin: 3px;
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: 10%;
+}
+
+.storage {
+  background: #04aa6d;
+  color: white;
+  height: 30px;
+  margin: 3px;
+  border: 0;
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: 10%;
+}
+
+.fill {
+  background: rgb(233, 9, 9);
+  color: white;
+  border: 0;
+  height: 30px;
+  margin: 3px;
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: 10%;
+}
+
+button {
+  cursor: pointer;
+}
