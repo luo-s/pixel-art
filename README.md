@@ -1,4 +1,4 @@
-# pixel-art-maker
+# Pixel Art Maker
 
 Fill the palette with imagination! https://luo-s.github.io/pixel-art-maker/
 
